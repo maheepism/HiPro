@@ -29,12 +29,12 @@ namespace CircleApp.Data.Helpers
             //Users with Roles
             if(!userManager.Users.Any(n => !string.IsNullOrEmpty(n.Email)))
             {
-                var userPassword = "Coding@1234?";
+                var userPassword = "qwert";
                 var newUser = new User()
                 {
-                    UserName = "ervis.trupja",
-                    Email = "ervis@trupja.com",
-                    FullName = "Ervis Trupja",
+                    UserName = "pintu",
+                    Email = "pintu@maheep.net",
+                    FullName = "Pintu Jain",
                     ProfilePictureUrl = "https://img-b.udemycdn.com/user/200_H/16004620_10db_5.jpg",
                     EmailConfirmed = true
                 };
@@ -46,9 +46,9 @@ namespace CircleApp.Data.Helpers
 
                 var newAdmin = new User()
                 {
-                    UserName = "admin.admin",
-                    Email = "admin@trupja.com",
-                    FullName = "Ervis Admin",
+                    UserName = "maheep",
+                    Email = "maheep@maheep.net",
+                    FullName = "Maheep Saraf",
                     ProfilePictureUrl = "https://img-b.udemycdn.com/user/200_H/16004620_10db_5.jpg",
                     EmailConfirmed = true
                 };
